@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="index.js"></script>
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+</head>
+<body>
+
+    <!-- ************ header section ********* -->
+
+    <header class="header">
+        <img src="images/logo.jpg" alt="logo" class="logo">
+        <nav class="navbar">
+            <ul class="navbar-lists">
+                <li><a href="#" class="navbar-link home-link">Home</a></li>
+                <li><a href="about.html" class="navbar-link about-link">About</a></li>
+                <li><a href="service.html" class="navbar-link service-link">Service</a></li>
+                <li><a href="#" class="navbar-link portfolio-link">Portfolio</a></li>
+                <li><a href="contact.html" class="navbar-link contact-link">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-navbar-btn">
+            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+        </div>
+    </header>
+
+
+    <!-- **************** hero section ********* -->
+
+
+    <main>
+        <section class="section-hero section">
+            <div class="container grid  grid-two-column">
+                <div class="section-hero-data">
+                    <p class="hero-top-data">this is me</p>
+                    <h1 class="hero-heading">allen ccd</h1>
+                    <p class="hero-para">
+                        I'm allen ccd. A Full stack Web Developer, youtuber and
+                        freelancer. A Full stack Developer, youtuber and freelancer.
+                    </p>
+                    <div>
+                        <a href="#" class="btn hireme-btn">hire me</a>
+                    </div>
+                </div>
+                
+                
+                <!-- ********* hero section right side ********** -->
+
+
+                <div class="section-hero-image">
+                    <img 
+                        src="images/hero.jpg"
+                        alt="hero image" 
+                        class="hero-img"
+                    >
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- ********** our bio-data section ********* -->
+
+
+    <section class="section-biodata section">
+        <div class="container grid  grid-two-column">
+            <div class="bio-image">
+                <img 
+                    class="lazy-img"
+                    src="images/lazy1.jpg"
+                    data-src="images/biodata.jpg" 
+                    alt="bio-data"
+                    loading="lazy"
+                >
+            </div>
+
+
+            <!-- ******** bio-data  right side data ********** -->
+
+
+            <div class="bio-data">
+                <h2 class="common-heading">my bio-data</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio adipisci blanditiis, saepe voluptatem maxime aliquam itaque aut reprehenderit vero! Dicta, ducimus similique dignissimos eum in adipisci aut fugiat harum saepe?
+                </p>
+                <br>
+                <p>Voluptatem laudantium voluptatum veritatis nulla quia quod, alias quae.
+                </p>
+                <div class="bio-data-stats">
+                    <div class="bio-stats">
+                        <h3>Design</h3>
+                        <div class="bio-progress-bar">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>HTML</h3>
+                        <div class="bio-progress-bar bio-progress-2">
+                            <span>99%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>CSS</h3>
+                        <div class="bio-progress-bar bio-progress-3">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>JavaScript</h3>
+                        <div class="bio-progress-bar bio-progress-4">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>MERN</h3>
+                        <div class="bio-progress-bar bio-progress-5">
+                            <span>65%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bio-data-btn">
+                    <a href="https://drive.google.com/file/d/179KLKdKx-U3Q2l0fdinHEinjRYoERMhz/view?usp=drive_link" class="btn" target="_blank">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ************** our portfolio section ************* -->
+
+
+    <section class="section section-portfolio" id="portfolio-section">
+        <div class="container">
+            <h2 class="common-heading">Latest Works</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit temporibus hic, ex esse enim ratione quos magni natus! Cumque, possimus! Commodi voluptas dolore culpa perspiciatis sunt modi itaque assumenda porro.
+            </p>
+        </div>
+        <div class="p-btns">
+            <div class="btn p-btn" data-btn-num="1">website</div>
+            <div class="btn p-btn" data-btn-num="2">youtube</div>
+            <div class="btn p-btn" data-btn-num="3">design</div>
+        </div>
+
+        <div class="container grid grid-three-column portfolio-images">
+            <div class="img-overlay p-btn--1">
+                <img src="images/folio/1.webp" alt="my works">
+                <div class="overlay">
+                    <a href="#" target="_blank" class="common-heading">project 1</a>
+                </div>
+            </div>
+
+            <div class="img-overlay p-btn--3">
+                <img src="images/folio/4.jpg" alt="my works">
+                <div class="overlay">
+                    <a href="#" target="_blank" class="common-heading">project 2</a>
+                </div>
+            </div>
+
+            <div class="img-overlay p-btn--1 ">
+                <img src="images/folio/6.jpg" loading="lazy" alt="portfolio images">
+                <div class="overlay">
+                    <a href="#" target="_blank" class="common-heading">project 3</a>
+                </div>
+            </div>
+
+            <div class="img-overlay p-btn--1 p-btn--2">
+                <img src="images/folio/7.jpg" loading="lazy" alt="portfolio images">
+                <div class="overlay">
+                    <a href="#" target="_blank" class="common-heading">project 4</a>
+                </div>
+            </div>
+
+            <div class="img-overlay p-btn--2">
+                <img src="images/folio/8.jpeg" loading="lazy" alt="portfolio-images">
+                <div class="overlay">
+                    <a href="#" target="_blank" class="common-heading">project 5</a>
+                </div>
+            </div>
+
+            <div class="img-overlay p-btn--1">
+                <img src="images/folio/1.webp" loading="lazy" alt="portfolio-images">
+                <div class="overlay">
+                    <a href="#" target="_blank" class="common-heading">project 6</a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <!-- ************** work counter section ********* -->
+
+
+    <section class="section section-work-data">
+        <div class="container grid grid-four-column">
+            <div>
+                <h2 class="counter-numbers" data-number="2000">0+</h2>
+                <p>project completed</p>
+            </div>
+
+            <div>
+                <h2 class="counter-numbers" data-number="6000">0+</h2>
+                <p>happy clients</p>
+            </div>
+
+            <div>
+                <h2 class="counter-numbers" data-number="5000">0+</h2>
+                <p>cup of coffee</p>
+            </div>
+
+            <div>
+                <h2 class="counter-numbers" data-number="3000">0+</h2>
+                <p>real professionals</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!--  ********** Our service section ********** -->
+    
+
+    <section class="section section-services">
+        <div class="container">
+            <h2 class="common-heading">Service offers</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos temporibus quibusdam porro totam! 
+            </p>
+        </div>
+
+
+        <!-- ********** service offers cards ************ -->
+
+
+        <div class="container grid grid-three-column">
+            <div class="service-box">
+                <ion-icon name="desktop-outline" class="service-icon"></ion-icon>
+                <h3>web design</h3>
+                <p>"It is not bacause things are difficult that we do not dare; it is 
+                    because we do not dare that they are difficult"
+                </p>
+            </div>
+
+            <div class="service-box">
+                <ion-icon name="logo-react" class="service-icon"></ion-icon>
+                <h3>web development</h3>
+                <p>"It is not bacause things are difficult that we do not dare; it is 
+                    because we do not dare that they are difficult"
+                </p>
+            </div>
+
+            <div class="service-box">
+                <ion-icon name="camera-outline" class="service-icon"></ion-icon>
+                <h3>photography</h3>
+                <p>"It is not bacause things are difficult that we do not dare; it is 
+                    because we do not dare that they are difficult"
+                </p>
+            </div>
+
+            <div class="service-box">
+                <ion-icon name="phone-portrait-outline" class="service-icon"></ion-icon>
+                <h3>mobile  apps</h3>
+                <p>"It is not bacause things are difficult that we do not dare; it is 
+                    because we do not dare that they are difficult"
+                </p>
+            </div>
+
+            <div class="service-box">
+                <ion-icon name="laptop-outline" class="service-icon"></ion-icon>
+                <h3>apps interface</h3>
+                <p>"It is not bacause things are difficult that we do not dare; it is 
+                    because we do not dare that they are difficult"
+                </p>
+            </div>
+
+            <div class="service-box">
+                <ion-icon name="images-outline" class="service-icon"></ion-icon>
+                <h3>graphic design</h3>
+                <p>"It is not bacause things are difficult that we do not dare; it is 
+                    because we do not dare that they are difficult"
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ********** our resume section ************ -->
+    
+    <!-- video me nahi tha apne s banana hai jais ravi -->
+
+    <!-- *********** our testmonial section ************* -->
+
+    <section class="section section-testimonial">
+        <div class="container">
+            <h2 class="common-heading">happy client works</h2>
+        </div>
+    
+        <div class="swiper mySwiper container">
+            <div class="swiper-wrapper">
+              
+                <!-- section start -->
+
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>
+                            you know sometimes when I'm takling, my words can't
+                            keep up with my thoughts... I wonder why we think faster than we speak.
+                            hobbes: probably so we can think twice.
+                        </p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/clients/1.jpeg" alt="clients review">
+                        </figure>
+                        <div class="client-data-details">
+                            <p>ravi jaiswal</p>
+                            <p>entrepreneur</p>
+                        </div>
+                    </div>
+                </div>
+              
+                <!-- section end -->
+
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>
+                            you know sometimes when I'm takling, my words can't
+                            keep up with my thoughts... I wonder why we think faster than we speak.
+                            hobbes: probably so we can think twice.
+                        </p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/clients/1.jpeg" alt="clients review">
+                        </figure>
+                        <div class="client-data-details">
+                            <p>vinod thapa</p>
+                            <p>entrepreneur</p>
+                        </div>
+                    </div>
+                </div>
+              
+                <!-- section end -->
+
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>
+                            you know sometimes when I'm takling, my words can't
+                            keep up with my thoughts... I wonder why we think faster than we speak.
+                            hobbes: probably so we can think twice.
+                        </p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/clients/1.jpeg" alt="clients review">
+                        </figure>
+                        <div class="client-data-details">
+                            <p>vinod thapa</p>
+                            <p>entrepreneur</p>
+                        </div>
+                    </div>
+                </div>
+              
+                <!-- section end -->
+
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>
+                            you know sometimes when I'm takling, my words can't
+                            keep up with my thoughts... I wonder why we think faster than we speak.
+                            hobbes: probably so we can think twice.
+                        </p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/clients/1.jpeg" alt="clients review">
+                        </figure>
+                        <div class="client-data-details">
+                            <p>vinod thapa</p>
+                            <p>entrepreneur</p>
+                        </div>
+                    </div>
+                </div>
+              
+                <!-- section end -->
+
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>
+                            you know sometimes when I'm takling, my words can't
+                            keep up with my thoughts... I wonder why we think faster than we speak.
+                            hobbes: probably so we can think twice.
+                        </p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/clients/1.jpeg" alt="clients review">
+                        </figure>
+                        <div class="client-data-details">
+                            <p>vinod thapa</p>
+                            <p>entrepreneur</p>
+                        </div>
+                    </div>
+                </div>
+              
+                <!-- section end -->
+
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>
+                            you know sometimes when I'm takling, my words can't
+                            keep up with my thoughts... I wonder why we think faster than we speak.
+                            hobbes: probably so we can think twice.
+                        </p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/clients/1.jpeg" alt="clients review">
+                        </figure>
+                        <div class="client-data-details">
+                            <p>vinod thapa</p>
+                            <p>entrepreneur</p>
+                        </div>
+                    </div>
+                </div>
+              
+                <!-- section end -->
+
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>
+                            you know sometimes when I'm takling, my words can't
+                            keep up with my thoughts... I wonder why we think faster than we speak.
+                            hobbes: probably so we can think twice.
+                        </p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/clients/1.jpeg" alt="clients review">
+                        </figure>
+                        <div class="client-data-details">
+                            <p>vinod thapa</p>
+                            <p>entrepreneur</p>
+                        </div>
+                    </div>
+                </div>
+              
+                <!-- section end -->
+
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>
+                            you know sometimes when I'm takling, my words can't
+                            keep up with my thoughts... I wonder why we think faster than we speak.
+                            hobbes: probably so we can think twice.
+                        </p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/clients/1.jpeg" alt="clients review">
+                        </figure>
+                        <div class="client-data-details">
+                            <p>vinod thapa</p>
+                            <p>entrepreneur</p>
+                        </div>
+                    </div>
+                </div>
+              
+                <!-- section end -->                
+
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>
+                            you know sometimes when I'm takling, my words can't
+                            keep up with my thoughts... I wonder why we think faster than we speak.
+                            hobbes: probably so we can think twice.
+                        </p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/clients/1.jpeg" alt="clients review">
+                        </figure>
+                        <div class="client-data-details">
+                            <p>vinod thapa</p>
+                            <p>entrepreneur</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+    </section>
+    
+    
+    <!-- ********** our freelancing section ************* -->
+
+
+    <section class="section section-freelancing" >
+        <div class="overlay">
+
+        </div>
+        <div class="container">
+            <h2>I am <span>available</span> for freelancing</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sapiente cumque assumenda autem quos ducimus soluta iste. 
+            </p>
+            <a href="/contact.html" class="btn">HIRE ME</a>
+        </div>
+    </section>
+
+
+    <!-- ********* contact us section ************ -->
+
+
+    <section class="section section-contact">
+        <div class="container">
+            <h2 class="common-heading">contact us</h2>
+        </div>
+
+        <div class="section-contact-main contact-container">
+            <form action="https://formspree.io/f/xdorpkvg" method="POST">
+                <div class="grid grid-two-column">
+                    <div>
+                        <label for="username"></label>
+                        <input 
+                            type="text" 
+                            name="username" 
+                            placeholder="Username" 
+                            id="username" 
+                            required
+                            autocomplete="off" 
+                        >
+                    </div>
+                    <div>
+                        <label for="email"></label>
+                        <input 
+                            type="email" 
+                            name="email" 
+                            placeholder="demo@mail.com" 
+                            id="email" 
+                            required
+                            autocomplete="off"
+                        >
+                    </div>
+                </div>
+                <div>
+                    <label for="subject"></label>
+                    <input 
+                        type="text" 
+                        name="subject" 
+                        placeholder="subject" 
+                        id="subject"
+                        required
+                        autocomplete="off"
+                    >
+                </div>
+                <div>
+                    <label for="textarea"></label>
+                    <textarea 
+                        name="textarea" 
+                        id="textarea" 
+                        cols="30" 
+                        rows="10"
+                        autocomplete="off"
+                        required
+                        minlength="10"
+                        >
+                    </textarea>
+                </div>
+                <div>
+                    <input type="submit" name="submit" id="submit" class="btn" value="send message">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- ************* footer ********** -->
+
+
+    <footer class="section-footer footer section">
+        <div class="container grid grid-four-column">
+            <div class="f-about">
+                <h3>About</h3>
+                <p>
+                    We have tested a number of registry fix and clean utilities and 
+                    present our top 3 list on our website for your convenience. hope you
+                    like it.
+                </p>
+            </div>
+
+            <!--  end  -->
+
+            <div class="f-links">
+                <h3>Links</h3>
+                <ul>
+                    <li>
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                        <a href="#">home</a>
+                    </li>
+
+                    <li>
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                        <a href="#">about</a>
+                    </li>
+
+                    <li>
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                        <a href="#">services</a>
+                    </li>
+
+                    <li>
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                        <a href="#">portfolio</a>
+                    </li>
+
+                    <li>
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                        <a href="#">contact</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <!--  link end  -->
+
+            <div class="f-services">
+                <h3>Services</h3>
+                <ul>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">web desgin</a>
+                    </li>
+
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">web development</a>
+                    </li>
+
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">mern project</a>
+                    </li>
+
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">online  classes</a>
+                    </li>
+
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">youtube course</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- end -->
+
+            <div class="f-address">
+                <h3>Have a Question? </h3>
+                <address>
+                    <div>
+                        <p>
+                            <span><ion-icon name="location-outline"></ion-icon></span>
+                            Dhanabad, JHARKHAND , INDIA
+                        </p>
+                    </div>
+
+                    <div>
+                        <p>
+                            <span><ion-icon name="call-outline"></ion-icon></span>
+                            <a href="tel:+919876543210">+91 9876543210</a>
+                        </p>
+                    </div>
+
+                    <div>
+                        <p>
+                            <span><ion-icon name="mail-outline"></ion-icon></span>
+                            <a href="mailto:ravijaiswal258852@gmail.com">demo@mail.com</a>
+                        </p>
+                    </div>
+                </address>
+            </div>
+        </div>
+
+        <!-- end -->
+
+        <div class="container">
+            <div class="f-social-icons">
+                <a href="@" target="_blank">
+                    <ion-icon name="logo-instagram" class="icons"></ion-icon>
+                </a>
+                <a href="@" target="_blank">
+                    <ion-icon name="logo-discord" class="icons"></ion-icon>
+                </a>
+                <a href="@" target="_blank">
+                    <ion-icon name="logo-youtube" class="icons"></ion-icon>
+                </a>
+            </div>
+
+            <div class="f-credits">
+                <p>
+                    Copyright &copy2022 All right reserved | this template is made with ❤️ by Thapa Technical
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ****** scroll to top section ******* bina javascript kaa ****-->
+
+    <!-- <div class="scroll-to-top">
+        <ion-icon name="arrow-up-outline" class="scroll-top"></ion-icon>
+    </div> -->
+
+
+    <!-- ************ our javascript section ************* -->
+
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</body>
+</html> 
+
