@@ -195,7 +195,9 @@ li{
     height: 0.3rem;
     background: var(--helper);
 }
-
+textarea{
+    resize: none;
+}
 /* ******* hero section start ***********  */
 
 .section-hero{
