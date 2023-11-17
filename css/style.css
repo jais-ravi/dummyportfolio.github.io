@@ -27,7 +27,12 @@
 html{
     font-size: 62.5%;
     /* 1rem = 10px */
+    overflow-x: hidden;
 }
+body{
+    overflow-x: hidden;
+}
+
 h1,h2,h3,h4{
     font-family: 'Poppins', sans-serif;
 }
